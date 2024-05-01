@@ -7,7 +7,6 @@
 #Imports básicos para o código funcionar
 import pandas as pd
 from openpyxl import *
-import time
 
 wb = load_workbook(filename = "/content/TABELA ACORDOS.xlsx")
 #Salva a lista de nomes na variável nomes
